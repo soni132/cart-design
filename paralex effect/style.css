@@ -1,0 +1,61 @@
+.wrapper{
+       width: 100vw;
+       height: 100vh;
+overflow-x: hidden;
+overflow-y: auto;
+perspective: 100px;
+
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+.mountain,.men{
+    position: absolute;
+height: 100%;
+width: 100%;
+z-index: -1;
+object-fit: cover;
+}
+.mountain{
+    transform: translateZ(-40px) scale(1.4);
+}
+.men{
+    transform: translateZ(-20px) scale(1.5);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* .mountain{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+.men{
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    z-index: 1;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+    scale: 2;
+    
+    /* align-self: flex-end; */
+    /* align-items: end; */
+    /* align-content: end; */
+} */

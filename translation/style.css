@@ -1,0 +1,13 @@
+.mydiv{
+    background-image: linear-gradient(red,pink);
+transform: translate(100px,50px);
+border: 1px solid black;
+/* transform: translateX(100px);
+transform: translateY(50px); */
+/* transform: rotate(-45deg); */
+margin: 200px;
+width: 100px;
+transform: scale(2,5);
+transform: skew(45deg);
+
+}

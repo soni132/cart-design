@@ -1,0 +1,17 @@
+div{
+    height: 100px;
+    width: 100px;
+    margin:10px;
+    border:1px solid black;
+    background-image: linear-gradient(rgb(125, 213, 102),rgba(31,50,250,0));
+
+}
+.mydiv{
+    transform: perspective(32px) translateZ(-45px);
+}
+.mystyle{
+    height: 100px;
+    width: 100px;
+    /* transform: perspective(10px) scaleZ(6) rotateX(3deg); */
+    transform: rotateZ(30deg);
+}

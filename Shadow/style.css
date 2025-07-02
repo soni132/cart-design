@@ -1,0 +1,20 @@
+h1{
+    text-shadow: 3px 3px 3px red;
+    text-shadow: 3px 3px 3px red,5px 5px 5px green;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgb(235, 235, 164),pink);
+
+}
+.box{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: 1px solid black;
+    background-image: linear-gradient(yellow,blue);
+    box-shadow: -3px -3px 3px rgb(36, 35, 35),5px 5px 15px green;
+    color: rgb(3, 3, 3);
+}

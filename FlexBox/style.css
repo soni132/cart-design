@@ -1,0 +1,117 @@
+/* .container{
+    border: 2px solid rgb(3, 0, 0);
+    width: 230px;
+    height: 40px;
+    /* flex-direction:column ; */
+    /* display: flex;
+    background-color: rgb(236, 232, 226);
+    border-radius: 1cm; */
+/* flex-wrap: wrap; */
+
+/* }
+.box{
+    border: 2px solid black;
+    margin: 6px;
+height: 20px;
+width: 40px;
+padding: 2px;
+border-radius: 5cm;
+background-image: linear-gradient(pink,rgb(109, 109, 218));
+
+
+} */ 
+
+/* .cont{
+    height: 400px; */
+    /* width: 100px; */
+    /* border: 2px solid black;
+    display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap:wrap-reverse; */
+   /* flex-flow:wrap; */
+   /* justify-content: flex-end;*/
+   /* justify-content: space-around; */
+  /* justify-content: center;  */
+   /* justify-content: space-between; */ 
+   /* align-items: flex-start; */
+   /* align-items: center; */
+   /* align-items: stretch; */
+   /* gap: 10px; */
+   /* align-content: flex-end ;
+   align-content: flex-start;
+  align-content: center;
+  align-content: space-around; */
+  /* align-content: space-evenly; */
+  /* align-items:last baseline;
+  align-items: center;
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
+  align-items: first baseline;
+align-content: center;
+align-content: flex-end;
+    
+
+} */
+
+/* .boss{
+    border: 1px solid black;
+    width: 300px;
+    background-color: aqua;
+    height: 50px;
+
+} */
+
+*{
+    box-sizing: border-box;
+}
+.cont{
+    border: 2px solid black;
+    height: 200px;
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   /* flex line */
+   align-content:  space-around;
+
+/* align-items: center; */
+/* vertical movement */
+
+
+    /* horizontal movement */
+justify-content: flex-start;
+    
+
+}
+.boss{
+    border: 1px solid black;
+    width: 100px;
+    flex-basis: 50%;
+    background-color: aquamarine;
+ 
+}
+
+#box1{
+    order: 3;
+       /* flex-grow: 1; */
+       /* flex-shrink: 4; */
+       /* align-self: stretch; */
+}
+
+#box4{
+    order:4;
+       /* flex-grow: 1; */
+       /* align-self: flex-end; */
+}
+#box3{
+    order:2;
+}
+
+
+
+
+
+
+
+
+

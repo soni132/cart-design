@@ -1,0 +1,95 @@
+.mydiv{
+    border:1px solid black;
+    background-color: aquamarine;
+    position: fixed;
+    bottom: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+img{
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 100px;
+    
+   
+}
+#monkey{
+    position: absolute;
+    z-index: -1;
+     top: 20px;
+    left: 100px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* p{
+    position: static;
+
+}
+.mydiv{
+    height: 100px;
+width: 100px;
+margin: 10px;
+border:1px solid black ;
+background-image: linear-gradient(pink,blue);
+display: inline-block;
+}
+#div2{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.wra{
+    height: 10000px;
+    width: 100vw;
+    background-color: bisque;
+    
+}
+#div1{
+    position: fixed;
+}
+#div4{
+    position: sticky;
+    top:0px;
+} */
